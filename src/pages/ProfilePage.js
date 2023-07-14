@@ -1,8 +1,12 @@
-function ProfilePage() {
+import Header from "../components/Header";
+
+const ProfilePage = () => {
+
   return (
-    <section>
-      <h1>Página de perfil</h1>
-    </section>
+    <>
+      <Header />
+      <h1>Página do Felipe</h1> 
+    </>
   );
 }
 

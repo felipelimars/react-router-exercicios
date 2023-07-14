@@ -1,7 +1,9 @@
-function App() {
+import Router from "./routes/Router";
+
+const App = () => {
   return (
     <>
-      Exercicio de Router
+    <Router/>
     </>
   );
 }

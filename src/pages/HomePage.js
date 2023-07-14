@@ -1,8 +1,11 @@
-function HomePage() {
+import Header from "../components/Header";
+
+const HomePage = () => {
   return (
-    <section>
+    <>
+      <Header/>
       <h1>Página inicial</h1>
-    </section>
+    </>
   );
 }
 

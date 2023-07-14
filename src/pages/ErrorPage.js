@@ -1,8 +1,12 @@
-function ErrorPage() {
+import Header from "../components/Header";
+import React from "react";
+
+const ErrorPage = () => {
   return (
-    <section>
-      <h1>Página não encontrada</h1>
-    </section>
+    <div>
+      <Header />
+      <img src="https://geekblog.com.br/wp-content/uploads/2021/03/o-que-e-erro-404.png" alt="Imagem de erro" style={{ width: '100%'}} />
+    </div>
   );
 }
 
